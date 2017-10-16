@@ -8,13 +8,6 @@
 	font-family: Arial;
 	font-size: 100%;
 }
-.header_image {
-	src:./images/old_combine.jpg;
-	alt:"Age is more than a number"; 
-	max-width: 100%;
-	width: 100%;
-	height:auto;
-}
 .header_title {
 	color: Black;
 	position: absolute;
@@ -49,3 +42,18 @@
 	opacity: .5;
 	border: 2px solid black;
 } 
+.scroll_lock{
+
+	background-image:url("./../images/old_combine.jpg");
+    /* Set a specific height */
+    max-width: 100%;
+	min-height: 460px;
+	width: 100%; 
+	height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
