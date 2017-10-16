@@ -2,11 +2,11 @@
 	Justin's Css Test Page
 */
 
-.body {
-	color: Black;
+.body ,.bio {
 	text-align: center;
 	font-family: Arial;
 	font-size: 100%;
+	color: White;
 }
 .header_title {
 	color: Black;
@@ -30,6 +30,7 @@
 .bio {
 	float: right;
 	margin: 10px 10px 10px 10px;
+	font-family: Arial;
 }
 .contributor_img {
 	alt:"Age is more than a number"; 
