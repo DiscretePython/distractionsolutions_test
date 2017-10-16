@@ -1,12 +1,12 @@
-/*
+/*	
 	Justin's Css Test Page
 */
 
 .body {
 	color: Black;
-	background-color: White;
 	text-align: center;
 	font-family: Arial;
+	font-size: 100%;
 }
 .header_image {
 	src:./images/old_combine.jpg;
@@ -14,6 +14,29 @@
 	max-width: 100%;
 	height:auto;
 }
+.header_title {
+	color: Black;
+	text-align: center;
+	font-family: Arial;
+	text
+}
 .back {
     background: linear-gradient(to bottom, #ffffff 7%, #ff6600 100%);
+}
+.contributor {
+	float: left;
+	margin: 10px 10px 10px 10px;	
+}
+.bio {
+	float: right;
+	margin: 10px 10px 10px 10px;
+}
+.contributor_img {
+	alt:"Age is more than a number"; 
+	width: 200px;
+	height:200px;
+	border-radius: 100px;
+	float: left;
+	/* Top Right Bottom Left*/
+	margin: 10px 10px 10px 100px;	
 }
