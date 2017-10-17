@@ -21,7 +21,7 @@
     border-width: 2px 2px 2px 2px;
 }
 .back {
-    background: linear-gradient(to bottom, #A4A189 7%, rgb(237, 238, 240) 100%);
+    background: linear-gradient(to bottom, rgb(110, 124, 100) 7%, rgb(37, 38, 40)  100%);
 }
 .contributor {
 	float: left;
