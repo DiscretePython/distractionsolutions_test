@@ -21,11 +21,12 @@
     border-width: 2px 2px 2px 2px;
 }
 .back {
-    background: linear-gradient(to bottom, #A4A189 7%, #728A40 100%);
+    background: linear-gradient(to bottom, #A4A189 7%, rgb(237, 238, 240) 100%);
 }
 .contributor {
 	float: left;
-	margin: 10px 10px 10px 10px;	
+	margin: 10px 10px 10px 10px;
+	postion:relative;	
 }
 .bio {
 	float: right;
@@ -75,16 +76,43 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
+	font-family: Arial;
     padding: 14px 16px;
     text-decoration: none;
 }
+
+.YTcluster {
+	postion:relative;
+	min-width: 200px;
+	margin: auto;
+}
+
 .embeddedYT { 
+	min-width: 200px;
 	width: 90%; 
 	height: 70%;
 	frameborder: 0;
 } 
 .YTbio {
 	float:left;
+	min-width: 200px;
 	width:33%;
 	height:514px;
+	margin: auto;
+}
+@media (max-width: 800px){
+	.YTcluster {
+		width: 95%;
+	}
+
+	.embeddedYT { 
+		width: 100%; 
+	} 
+	.YTbio {
+		min-width: 200px;
+		width:100%;
+	}
+}
+
+
 }
