@@ -2,27 +2,33 @@
 	Justin's Css Test Page
 */
 
-.body ,.bio ,.YTbio ,.YTtitle{
+/*Basic Inheritance*/
+.header_title ,.body ,.bio ,.YTbio ,.YTtitle,.navbar a ,.news{
 	text-align: center;
 	font-family: Arial;
 	font-size: 100%;
 	color: White;
 }
+
+/* Title on First */
 .header_title {
-	color: Black;
 	position: absolute;
-	font-family: Arial;
 	font-size: 36px;
-	color: white;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border-style: solid;
     border-width: 2px 2px 2px 2px;
+	text-shadow: 0px 0px 50px #444; /*Temp till we get proper images and a colour pallete*/
 }
 .back {
-    background: linear-gradient(to bottom, rgb(110, 124, 100) 7%, rgb(37, 38, 40)  100%);
+    background: linear-gradient(to bottom, rgb(110, 124, 100) 7%, rgb(37, 38, 40) 100%);
 }
+.back_photos {
+    background: linear-gradient(to bottom, rgb(255, 250, 250) 7%, rgb(255, 255, 255) 100%);
+}
+/* Who We Are Section */
+
 .contributor {
 	float: left;
 	margin: 10px 10px 10px 10px;
@@ -46,10 +52,13 @@
 	opacity: .5;
 	border: 2px solid black;
 } 
-.scroll_lock{
 
-	background-image:url("./../images/old_combine.jpg");
-    /* Set a specific height */
+/* Paralax Code */
+
+/*Image Paralaxing*/
+.i1 ,.i2 ,.i3 ,.i4 ,.i5 ,.i6 ,.i7{
+    
+	/* Set a specific height */
     max-width: 100%;
 	min-height: 460px;
 	width: 100%; 
@@ -61,7 +70,57 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* The navigation bar */
+/*Image Sourcing*/
+.i1{
+	background-image: url(./../images/old_combine.jpg);
+}
+.i2{
+	background-image: url(./../images/i2.JPG);
+    max-height: 1000%;
+	min-height: 90%;
+	max-width:50%;
+	height: auto;
+	width: auto; 
+	background-position: left;
+	background-size: contain;
+}
+.i3{
+	background-image: url(./../images/i3.JPG);
+}
+.i4{
+	background-image: url(./../images/i4.JPG);
+}
+.i5{
+	background-image: url(./../images/i5.JPG);
+}
+.i6{
+	background-image: url(./../images/i6.JPG);
+}
+.i7{
+	background-image: url(./../images/i7.JPG);
+}
+/* The photo descriptions*/
+.i1_des ,.i2_des ,.i3_des ,.i4_des ,.i5_des ,.i6_des ,.i7_des{
+	
+	margin: 15%;	
+	font-size: 36px;
+	top: 25%;
+	left: 50%;
+	border-style: solid;
+    border-width: 2px 2px 2px 2px;
+	text-align: center;
+	font-family: Arial;
+	
+}
+.i2_des {
+	margin: 25%;
+	position: relative;
+	top: 0%;
+	left: 100%;
+	float:right;
+}
+/* The Navigation Bar */
+
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -69,30 +128,32 @@
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
-
 /* Links inside the navbar */
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
     text-align: center;
-	font-family: Arial;
     padding: 14px 16px;
     text-decoration: none;
 }
 
+
+/* YouTube Section */
+
+/* YouTube Box(containing all sections)*/
 .YTcluster {
 	postion:relative;
 	min-width: 200px;
 	margin: auto;
 }
-
+/* Embedded YouTube Player*/
 .embeddedYT { 
 	min-width: 200px;
 	width: 90%; 
 	height: 70%;
 	frameborder: 0;
 } 
+/* YouTube Channel Descrption and Title */
 .YTbio {
 	float:left;
 	min-width: 200px;
@@ -100,11 +161,11 @@
 	height:514px;
 	margin: auto;
 }
+/* YouTube Section resizing for small displays */
 @media (max-width: 800px){
 	.YTcluster {
 		width: 95%;
 	}
-
 	.embeddedYT { 
 		width: 100%; 
 	} 
@@ -112,7 +173,4 @@
 		min-width: 200px;
 		width:100%;
 	}
-}
-
-
 }
