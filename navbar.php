@@ -5,5 +5,6 @@ echo ("<div class=\"navbar\">
 		<a href=\"index.php#youtube\">Youtube</a>
 	  	<a href=\"index.php#contributors\">Contact</a>
 		<a href=\"Photos.php#top\">Photos</a>
+		<a href=\"distractions.php#top\">Resources</a>
 	</div>");
 ?>
