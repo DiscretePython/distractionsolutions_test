@@ -8,7 +8,7 @@
 <body class="back">
 	<?php include 'navbar.php';?>
 	<div id="top"></div>
-	<div class="i1"></div>
+	<div class="i-1"></div>
 	<div class="header_title"> Your solutions to all of the worlds problems</div> 
 	<div id="youtube" class="YTcluster">
 		<H1 class="YTtitle">How to cook</H1>
