@@ -5,7 +5,7 @@
 	<?php include 'navbar.php';?>
 	<div id="top"></div>
 	<div class="i-1"></div>
-	<div class="header_title"> Your solutions to all of the worlds problems</div> 
+	<div class="header_title"> Your Solutions to all of the Worlds Problems</div> 
 	<div id="youtube" class="YTcluster">
 		<H1 class="YTtitle">How to cook</H1>
 		<div class="YTbio">
