@@ -56,13 +56,13 @@
 /* Paralax Code */
 
 /*Image Paralaxing*/
-.i1 ,.i2 ,.i3 ,.i4 ,.i5 ,.i6 ,.i7{
+[class*="i-"]{
     
 	/* Set a specific height */
     max-width: 100%;
-	min-height: 460px;
+	min-height: 110%;
 	width: 100%; 
-	height: 100%;
+	height: 110%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -71,38 +71,40 @@
     background-size: cover;
 }
 /*Image Sourcing*/
-.i1{
+.i-1{
 	background-image: url(./../images/old_combine.jpg);
 }
-.i2{
+.i-2{
 	background-image: url(./../images/i2.JPG);
     max-height: 1000%;
-	min-height: 90%;
+	min-height: 110%;
 	max-width:50%;
 	height: auto;
 	width: auto; 
 	background-position: left;
 	background-size: contain;
 }
-.i3{
+.i-3{
 	background-image: url(./../images/i3.JPG);
 }
-.i4{
+.i-4{
 	background-image: url(./../images/i4.JPG);
 }
-.i5{
+.i-5{
 	background-image: url(./../images/i5.JPG);
 }
-.i6{
+.i-6{
 	background-image: url(./../images/i6.JPG);
 }
-.i7{
+.i-7{
 	background-image: url(./../images/i7.JPG);
 }
 /* The photo descriptions*/
 .i1_des ,.i2_des ,.i3_des ,.i4_des ,.i5_des ,.i6_des ,.i7_des{
 	
-	margin: 15%;	
+	margin: 15%;
+	margin-top: 100px;
+    margin-bottom: 100px;	
 	font-size: 36px;
 	top: 25%;
 	left: 50%;
