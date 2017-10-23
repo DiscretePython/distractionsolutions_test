@@ -21,7 +21,7 @@
 		</div> 
 		<div class="YTbio">
 			<H2>The Forgotten Software Incidents</H2>
-			<p>The joint youtube gamming channel</p>					
+			<p>The joint youtube gaming channel</p>					
 			<iframe class="embeddedYT" src="https://www.youtube.com/embed/uLjOi8S4XJA?rel=0" allowfullscreen></iframe>
 		</div>
 		<div class="YTbio">
