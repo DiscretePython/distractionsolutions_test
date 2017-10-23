@@ -8,7 +8,7 @@
 <body class="back">
 	<?php include 'navbar.php';?>
 	<div id="home"></div>
-	<div class="i1"></div>
+	<div class="i-1"></div>
 	<div class="header_title"> Your solutions to all of the worlds problems</div> 
 	<p class="body">Thank you for visiting</p>
 	<div id="news" class="news">
