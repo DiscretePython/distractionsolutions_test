@@ -5,7 +5,7 @@
 	<?php include 'navbar.php';?>
 	<div id="home"></div>
 	<div class="i-1"></div>
-	<div class="header_title"> Your solutions to all of the worlds problems</div> 
+	<div class="header_title"> Your Solutions To All Of The Worlds Problems</div> 
 	<p class="body">Thank you for visiting</p>
 	<div id="news" class="news">
 		<p>Now with some PHP to stop Will having duplicate code so often!!</p>
