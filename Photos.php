@@ -1,9 +1,5 @@
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Distraction Solutions - Photos</title>
-	<link rel="stylesheet" href="./css/Styles.css">
-</head>
+<?php include 'head.php';?>
 <body class="back_photos">
 	<?php include 'navbar.php';?>
 	<div id="top"></div>
