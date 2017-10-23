@@ -58,6 +58,10 @@
 	<ul>
 		<li><a href=\"http://weather.gc.ca/marine/weatherConditions-currentConditions_e.html?mapID=15&siteID=14100&stationID=44258">Maritime Weather</a></li>
 	</ul>
+	Schematics
+	<ul>
+		<li><a href=\"https://www.fs.fed.us/database/acad/lt/">US Fire Watch Towers</a></li>
+	</ul>
 	</div>
 	
 </body>
