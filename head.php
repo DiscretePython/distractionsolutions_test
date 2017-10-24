@@ -13,6 +13,7 @@ echo ("
 	<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">
 	<title>Distraction Solutions</title>
 	<link rel=\"stylesheet\" href=\"./css/Styles.css\">
+	<meta charset=\"utf-8\">
 </head>
 ");
 ?>
