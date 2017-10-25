@@ -178,3 +178,34 @@
 		width:100%;
 	}
 }
+
+/*Flexiable Boxes*/
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(57, 61, 56);
+    direction: unset;
+    flex-direction: row;
+    -webkit-align-items: flex-start;
+    flex-wrap: wrap;
+}
+.flex-item {
+    background-color: #f1f1f1;
+    height: 120;
+    margin: 1%;
+    color: black;
+    border: black;
+    border-style: outset;
+	
+}
+.list-item {
+	list-style-type: none;
+    margin: 0;
+    padding: -5;
+    text-indent: -25;
+    text-align: start;
+}
+

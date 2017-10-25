@@ -25,39 +25,49 @@
 		</div> 
 	</div>
 	<div class="body">
-	Art Links
-	<ul>
-		<li><a href="http://www.mapsmith.net/">MapSmith</a></li>
-		<li><a href="https://color.adobe.com/">Adobe Color Palette</a></li>
-		<li><a href="http://game-icons.net/">Icons</a></li>
-	</ul> 
-	AI Links
-	<ul>
-		<li><a href="https://www.captionbot.ai/">Caption Bot</a></li>
-	</ul>
-	Web Links Dev
-	<ul>
-		<li><a href="http://shancarter.com/">Shan Carter</a></li>
-		<li><a href="http://dwtkns.com/portfolio/">Derek Watkins </a></li>
-		<li><a href="http://form.guide/php-form/php-login-form.html">Basic php Login Form</a></li>
-	</ul>
-	Comdic Relief
-	<ul>
-		<li><a href="https://www.reddit.com/r/LyricsSpoiledByHitler/top/">r\LyricsSpoiledByHitler</a></li>
-	</ul>
-	Map Data Links
-	<ul>
-		<li><a href="http://www.naturalearthdata.com/">Natural Earth Data</a></li>
-		<li><a href="https://www.google.com/maps/d/viewer?mid=1oaV0uhk7i3q4oHJsD8WMuOvCgB0&hl=en_US">Local Dive Sites</a></li>
-	</ul>
-	Weather
-	<ul>
-		<li><a href="http://weather.gc.ca/marine/weatherConditions-currentConditions_e.html?mapID=15&siteID=14100&stationID=44258">Maritime Weather</a></li>
-	</ul>
-	Schematics
-	<ul>
-		<li><a href="https://www.fs.fed.us/database/acad/lt/">US Fire Watch Towers</a></li>
-	</ul>
+	<div class="flex-container">
+  		<div class="flex-item">Art Links
+			<ul>
+				<li class="list-item"><a href="http://www.mapsmith.net/">MapSmith</a></li>
+				<li class="list-item"><a href="https://color.adobe.com/">Adobe Color Palette</a></li>
+				<li class="list-item"><a href="http://game-icons.net/">Icons</a></li>
+			</ul>
+		</div>
+  		<div class="flex-item">AI Links
+			<ul>
+				<li class="list-item"><a href="https://www.captionbot.ai/">Caption Bot</a></li>
+			</ul>
+		</div>
+  		<div class="flex-item">Web Links Dev
+			<ul>
+				<li class="list-item"><a href="http://shancarter.com/">Shan Carter</a></li>
+				<li class="list-item"><a href="http://dwtkns.com/portfolio/">Derek Watkins </a></li>
+				<li class="list-item"><a href="http://form.guide/php-form/php-login-form.html">Basic php Login Form</a></li>
+			</ul>
+		</div>
+		<div class="flex-item">Comdic Relief
+			<ul>
+				<li class="list-item"><a href="https://www.reddit.com/r/LyricsSpoiledByHitler/top/">r\LyricsSpoiledByHitler</a></li>
+			</ul>
+		</div>
+		<div class="flex-item">Map Data Links
+			<ul>
+				<li class="list-item"><a href="http://www.naturalearthdata.com/">Natural Earth Data</a></li>
+				<li class="list-item"><a href="https://www.google.com/maps/d/viewer?mid=1oaV0uhk7i3q4oHJsD8WMuOvCgB0&hl=en_US">Local Dive Sites</a></li>
+			</ul>
+		</div> 
+		<div class="flex-item">Weather
+			<ul>
+				<liclass="list-item"><a href="http://weather.gc.ca/marine/weatherConditions-currentConditions_e.html?mapID=15&siteID=14100&stationID=44258">Maritime Weather</a></li>
+			</ul>
+		</div> 
+		<div class="flex-item">Schematics
+			<ul>
+				<li class="list-item"><a href="https://www.fs.fed.us/database/acad/lt/">US Fire Watch Towers</a></li>
+			</ul>
+		</div> 
+	</div>
+	 
 	</div>
 	
 </body>
