@@ -11,7 +11,7 @@ echo ("
   		gtag('config', 'UA-56897505-2');
 	</script>
 	<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">
-	<title>Distraction Solutions</title>
+	<title>Distraction Solutions YAY</title>
 	<link rel=\"stylesheet\" href=\"./css/Styles.css\">
 	<meta charset=\"utf-8\">
 </head>
