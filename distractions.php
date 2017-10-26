@@ -10,17 +10,17 @@
 		<H1 class="YTtitle">How to cook</H1>
 		<div class="YTbio">
 			<H2>The Katering Show</H2>
-			<p>***** A very comedic look at cooking</p>					
+			<p class="YTbio_description">***** A very comedic look at cooking</p>					
 			<iframe class="embeddedYT" src="https://www.youtube.com/embed/J55vgxNaaBY?rel=0" allowfullscreen></iframe>
 		</div> 
 		<div class="YTbio">
 			<H2>You Suck at Cooking</H2>
-			<p>A satire on cooking show</p>					
+			<p class="YTbio_description">A satire on cooking show</p>					
 			<iframe class="embeddedYT" src="https://www.youtube.com/embed/noVEvsozyug?rel=0" allowfullscreen></iframe>
 		</div> 
 		<div class="YTbio">
 			<H2>Munchies</H2>
-			<p>A example of how <b>not</b> to do a cooking show,<br> No recipee no good footage of how's it's done...</p>					
+			<p class="YTbio_description">A example of how <b>not</b> to do a cooking show, No recipee no good footage of how's it's done...</p>					
 			<iframe class="embeddedYT" src="https://www.youtube.com/embed/yvj5ChGJf0U?rel=0" allowfullscreen></iframe>
 		</div> 
 	</div>
@@ -44,9 +44,7 @@
 				<a class="list-item" href="http://shancarter.com/">Shan Carter</a><br>
 				<a class="list-item" href="http://dwtkns.com/portfolio/">Derek Watkins </a><br>
 				<a class="list-item" href="http://form.guide/php-form/php-login-form.html">Basic php Login Form</a><br>
-				<a class="list-item" href="http://www.fileformat.info/info/unicode/block/egyptian_hieroglyphs/utf8test.htm">UTF Hyroglifics</a><br>
-				
-			
+				<a class="list-item" href="http://www.fileformat.info/info/unicode/block/egyptian_hieroglyphs/utf8test.htm">UTF Hyroglifics</a><br>			
 		</div>
 		<div class="flex-item">Comdic Relief
 			<br>

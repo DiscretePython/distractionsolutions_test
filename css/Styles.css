@@ -164,8 +164,27 @@
 	width:33%;
 	height:514px;
 	margin: auto;
+	white-space: nowrap;
+}
+.YTbio_description {
+	height:60px;
+	margin: auto;
+	white-space: normal;
 }
 /* YouTube Section resizing for small displays */
+@media (max-width: 1000px){
+	.YTcluster {
+		width: 95%;
+		
+	}
+	.embeddedYT { 
+		width: 95%; 
+	} 
+	.YTbio {
+		min-width: 200px;
+		width:50%;
+	}
+}
 @media (max-width: 800px){
 	.YTcluster {
 		width: 95%;
