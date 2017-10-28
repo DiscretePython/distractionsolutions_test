@@ -230,4 +230,38 @@
     text-indent: 0;
     text-align: left;
 }
+/* YouTube Section resizing for small displays */
+@media (max-width: 1000px){
+	.YTcluster {
+		width: 95%;
+		
+	}
+	.embeddedYT { 
+		width: 95%; 
+	} 
+	.YTbio {
+		min-width: 200px;
+		width:50%;
+	}
+}
+@media (max-width: 800px){
+	.YTcluster {
+		width: 95%;
+	}
+	.embeddedYT { 
+		width: 100%; 
+	} 
+	.YTbio {
+		min-width: 200px;
+		width:100%;
+	}
+}
 
+/* Higher Reselotion Displays */
+@media (min-resolution: 144dpi){
+
+	.header_title ,.body ,.bio ,.YTbio ,.YTtitle,.navbar a ,.news{
+		font-size: 200%;
+	}
+
+}

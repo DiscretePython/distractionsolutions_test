@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <?php include 'set_cookie.php';?>
 <html>
 <?php include 'head.php';?>
