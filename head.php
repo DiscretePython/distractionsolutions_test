@@ -15,6 +15,9 @@ echo ("
 	<link rel=\"stylesheet\" href=\"./css/Styles.css\">
 	<link rel=\"icon\" type=\"image/ico\" href=\".favicon.ico\"/>
 	<meta charset=\"utf-8\">
+	<!-- Mapbox Code --!>
+	<script src='https://api.mapbox.com/mapbox-gl-js/v0.40.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v0.40.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 ");
 ?>
