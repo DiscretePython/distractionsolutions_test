@@ -2,8 +2,8 @@
 function DataBaseConnect()
 {
 	$server = 'localhost';
-	$username ='root';
-	$password ='';
+	$username ='php';
+	$password ='123';
 	$database = 'test';
 	return mysqli_connect($server, $username, $password, $database);
 }
