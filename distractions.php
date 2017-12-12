@@ -47,11 +47,14 @@ session_start();
 				<a class="list-item" href="http://shancarter.com/">Shan Carter</a><br>
 				<a class="list-item" href="http://dwtkns.com/portfolio/">Derek Watkins </a><br>
 				<a class="list-item" href="http://form.guide/php-form/php-login-form.html">Basic php Login Form</a><br>
-				<a class="list-item" href="http://www.fileformat.info/info/unicode/block/egyptian_hieroglyphs/utf8test.htm">UTF Hyroglifics</a><br>			
+				<a class="list-item" href="http://www.fileformat.info/info/unicode/block/egyptian_hieroglyphs/utf8test.htm">UTF Hyroglifics</a><br>	
+				<a class="list-item" href="https://github.com/thedaviddias/Front-End-Checklist">Front End Checklist</a><br>	
+				<a class="list-item" href="https://www.reddit.com/r/learnprogramming/comments/7ftygt/github_offers_a_very_large_student_developer/">Free/Cheap tools for Students</a><br>
 		</div>
 		<div class="flex-item">Comdic Relief
 			<br>
-				<a class="list-item" href="https://www.reddit.com/r/LyricsSpoiledByHitler/top/">r\LyricsSpoiledByHitler</a>
+				<a class="list-item" href="https://www.reddit.com/r/LyricsSpoiledByHitler/top/">r\LyricsSpoiledByHitler</a><br>
+				<a class="list-item" href="https://xkcd.com">XKCD</a>
 			
 		</div>
 		<div class="flex-item">Map Data Links

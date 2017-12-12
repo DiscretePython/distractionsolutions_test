@@ -38,6 +38,17 @@ session_start();
 		echo $Wo_number;
 		switch ($Wo_type) {
 			case "Warranty":
+			try {
+			$sql = 'INSERT INTO WARRANTY SET  
+				Wo_number="' . $Wo_number .'" ;';
+				$result = mysqli_query($pdo,$sql);
+				$Wo_number = $pdo->insert_id;
+			}
+			catch(PDOExeption $e) {
+				$output = 'error table:' . $e->getMessage();
+				echo $output;
+				exit();
+			}
 			break;
 			case"Customer":
 			break;
