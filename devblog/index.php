@@ -11,7 +11,29 @@ session_start();
 	<div class="header_title"> Our Solutions To All Of Our Many Selfmade Problems</div> 
 	<div class="body">
 	<H1 class="YTtitle">Thoughts during Development</H1>  <!-- CSS Needs Updateing, this is piggybaking on the youtube section title //-->
-	
+
+
+	<div class="blog_post">
+		<article>
+			<div class="blog_header_container">
+				<H2>Change log 13/12/17</H2>
+				<H6>December 13, 2017 by William Knowling</H6>
+			</div>
+			<p>
+			Today I reglued the menu to the top of the pages. This was necessary because when the drop down part was added to it the positioning had to be reset, this turned out to be a disaster.  When it was fixed it truncated it, but that looks better so happy accident.<br><br>
+			Also did some work in the background to make adding content to the easier blog soon.  Their will be a very simple CMS but before we do this we need to switch over to the database instead of straight up editing the html for these posts.  When this is done posting comments will be a thing also :)<br><br>
+			The point at which the youtube boxes start to take up the entire width of the screen was inceased to the point where they were two accross.  This doesn't leave that awkward fourth gap which was too much whitespace.<br><br>
+			Now we will just mess around with some images have a real update soon, hopefully something that fixes the web css. 
+			<div class="id-dropdown">
+  			<img src="../images/i9.JPG" alt="Beautiful Dog" width="100" height="50">
+  				<div class="id-dropdown-content">
+    				<img src="../images/i9.JPG" alt="Beautiful Dog" width="600" height="400">
+    				<div class="id-desc">Beautiful Dog, Canaada</div>
+  				</div>
+			</div>
+			</p>
+		</article>
+	</div>		
 	
 	<div class="blog_post">
 		<article>

@@ -11,7 +11,7 @@ session_start();
 	<div class="header_title"> Your Solutions To All Of The Worlds Problems</div> 
 	<p class="body">Thank you for visiting</p>
 	<div id="news" class="news">
-		<p>Now with some flex boxes</p>
+		<p>Now with some Dev Blog</p>
 	
 
 	</div>
