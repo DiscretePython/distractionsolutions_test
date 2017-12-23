@@ -13,7 +13,7 @@ session_start();
 		<H1 class="YTtitle">How to cook</H1>
 		<div class="YTbio">
 			<H2>The Katering Show</H2>
-			<p class="YTbio_description">***** A very comedic look at cooking</p>					
+			<p class="YTbio_description"> A very comedic look at cooking</p>					
 			<iframe class="embeddedYT" src="https://www.youtube.com/embed/J55vgxNaaBY?rel=0" allowfullscreen></iframe>
 		</div> 
 		<div class="YTbio">
@@ -26,6 +26,22 @@ session_start();
 			<p class="YTbio_description">A example of how <b>not</b> to do a cooking show, No recipee no good footage of how's it's done...</p>					
 			<iframe class="embeddedYT" src="https://www.youtube.com/embed/yvj5ChGJf0U?rel=0" allowfullscreen></iframe>
 		</div> 
+		<H1 class="YTtitle">How to make stuff</H1>
+		<div class="YTbio">
+			<H2>AVE</H2>
+			<p class="YTbio_description">How the magic pixies make tools things work.</p>					
+			<iframe class="embeddedYT" src="https://www.youtube.com/embed/j-vJxez9UF8?rel=0" allowfullscreen></iframe>
+		</div>
+		<div class="YTbio">
+			<H2>Essential Craftsman</H2>
+			<p class="YTbio_description">A blacksmith, carpenter, logger and contracter all in one.</p>					
+			<iframe class="embeddedYT" src="https://www.youtube.com/embed/BECuOfOulKE?rel=0" allowfullscreen></iframe>
+		</div>
+		<div class="YTbio">
+			<H2>Primative Technology</H2>
+			<p class="YTbio_description">Some dude in the woods.</p>					
+			<iframe class="embeddedYT" src="https://www.youtube.com/embed/SLoukoBs8TE?rel=0" allowfullscreen></iframe>
+		</div>
 	</div>
 	<div class="body">
 	<div class="flex-container">
@@ -40,7 +56,8 @@ session_start();
 			<br>
 				<a class="list-item" href="https://www.captionbot.ai/">Caption Bot</a><br>
 				<a class="list-item" href="https://www.playground.tensorflow.org/">Basic nuaral network</a><br>
-		
+				<a class="list-item" href="http://www.k2.t.u-tokyo.ac.jp/vision/index-e.html">Book Scanning AI</a><br>
+						
 		</div>
   		<div class="flex-item">Web Links Dev
 			<br>
@@ -50,17 +67,23 @@ session_start();
 				<a class="list-item" href="http://www.fileformat.info/info/unicode/block/egyptian_hieroglyphs/utf8test.htm">UTF Hyroglifics</a><br>	
 				<a class="list-item" href="https://github.com/thedaviddias/Front-End-Checklist">Front End Checklist</a><br>	
 				<a class="list-item" href="https://www.reddit.com/r/learnprogramming/comments/7ftygt/github_offers_a_very_large_student_developer/">Free/Cheap tools for Students</a><br>
+				<a class="list-item" href="https://flippa.com/">Ebay for websites</a><br>
+				
+		
 		</div>
 		<div class="flex-item">Comdic Relief
 			<br>
 				<a class="list-item" href="https://www.reddit.com/r/LyricsSpoiledByHitler/top/">r\LyricsSpoiledByHitler</a><br>
-				<a class="list-item" href="https://xkcd.com">XKCD</a>
+				<a class="list-item" href="https://xkcd.com">XKCD</a><br>
+				<a class="list-item" href="http://www.pdchealthcare.com/non-acute-care-products/by-site/pharmacy/pharmacy-warning-labels.html">Pill Bottle Labels</a>
 			
 		</div>
 		<div class="flex-item">Map Data Links
 			<br>
 				<a class="list-item" href="http://www.naturalearthdata.com/">Natural Earth Data</a><br>
-				<a class="list-item" href="https://www.google.com/maps/d/viewer?mid=1oaV0uhk7i3q4oHJsD8WMuOvCgB0&hl=en_US">Local Dive Sites</a>
+				<a class="list-item" href="https://www.google.com/maps/d/viewer?mid=1oaV0uhk7i3q4oHJsD8WMuOvCgB0&hl=en_US">Local Dive Sites</a><br>
+				<a class="list-item" href="https://www.mapbox.com/">Online Embbed Maps</a><br>
+				<a class="list-item" href="http://mapinseconds.com/">Easy Stats Maps</a>
 			
 		</div> 
 		<div class="flex-item">Weather

@@ -1,9 +1,9 @@
 /*	
-	Justin's Css Test Page
+	Css Test Page
 */
 
 /*Basic Inheritance*/
-.header_title ,.body ,.bio ,.YTbio ,.YTtitle,.navbar a ,.news ,.back {
+.header_title ,.body ,.bio ,.YTbio ,.YTtitle,.navbar a ,.news ,.back ,.back_photos {
 	text-align: center;
 	font-family: Arial;
 	font-size: 100%;
@@ -31,6 +31,7 @@
 }
 .back_photos {
     background: linear-gradient(to bottom, rgb(255, 250, 250) 7%, rgb(255, 255, 255) 100%);
+	color: Black;
 }
 /* Who We Are Section */
 

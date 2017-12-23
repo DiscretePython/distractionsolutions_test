@@ -12,7 +12,17 @@ session_start();
 	<div class="body">
 	<H1 class="YTtitle">Thoughts during Development</H1>  <!-- CSS Needs Updateing, this is piggybaking on the youtube section title //-->
 
-
+		<div class="blog_post">
+		<article>
+			<div class="blog_header_container">
+				<H2>Change log 23/12/17</H2>
+				<H6>December 23, 2017 by William Knowling</H6>
+			</div>
+			<p>
+			Just added another row of youtube channels and links to the distratcions page and some CSS to make the photos page slightly more readable. 
+			</p>
+		</article>
+	</div>
 	<div class="blog_post">
 		<article>
 			<div class="blog_header_container">
