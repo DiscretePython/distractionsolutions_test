@@ -11,8 +11,31 @@ session_start();
 	<div class="header_title"> Our Solutions To All Of Our Many Selfmade Problems</div> 
 	<div class="body">
 	<H1 class="YTtitle">Thoughts during Development</H1>  <!-- CSS Needs Updateing, this is piggybaking on the youtube section title //-->
-
 		<div class="blog_post">
+		<article>
+			<div class="blog_header_container">
+				<H2>Using Excel to put a Class Schedule into Google's Calendar</H2>
+				<H6>January 9, 2017 by William Knowling</H6>
+			</div>
+			<p>
+			I didn't get a little pocket calendar this year to keep my schedule in so I needed to switch to the 21st cetury's method of keeping track of time [enter google stage left].  Messing around I found that I could upload a list of events in a csv that was in a certain format. To do this:
+			<ol>
+			<li>In a fresh excel file put the header titles accross the top (spelling is very important) & ( the "|" represents column sepeartions and should not be in the excel file)<br><code>Subject|Start Date|Start Time|End Date|End Time|All Day Event|Description|Location|Private</code></li><br>
+			<li>For each class fill in the information for the first class eg:<br><code>ECON 2623|99/12/30|13:00|End Date|End Time|TRUE|"Empirical Analysis in Business and Economics 2 , second half"|anytown|FALSE</code><br> in the enddate I suggest you set it to <code>=$B2</code> or the coresponding cell with the start date.  Similarly with your end time <code>=$C2+(length of class in hours)/24</code> deviding by the 24 puts it into hours from excel's defualt days. </li><br>
+			<li>To make a copy of this create an equation in the following row directly under the dates pervious <code>=$(cell letter)2,=$A2,=$B2,...</code> for each cell except the dates where you will add 7.  Drag this new row down to till you get to the last day of classes for this time slot</li><br>
+			<li>To make certain cells into a format that google will acccept, select the dates and change the formating to <code>mm-dd-yyyy</code> (you can find this by Right Clicking -> Format Cells -> Custom and type it in the only box where you can type). <br> You will also need to change the time cells to <code>h:mm AM/PM</code> from the custom choices.</li><br>
+			<li>Save your work</li><br>
+			<li>Save your work again but click "Save As" instead. Change the file type to "CSV UTF-8"</li><br>
+			<li>From your Gooogle Calendar click on the Cog to go to your settings menu (from the drop down click settings).  On the right side menu add a calendar so if their is a mistake it wont destroy your other events.  </li><br>
+			<li>On the right menu again click on "Inport & export", upload your new csv </li><br>
+			<li>Repeat for each class and all of their time slots</li><br>
+			</ol>
+			<br>
+			In other great news we welcome Mathew Helmer to the team!    			
+			</p>
+		</article>
+	</div>
+	<div class="blog_post">
 		<article>
 			<div class="blog_header_container">
 				<H2>Change log 23/12/17</H2>
