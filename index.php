@@ -23,9 +23,9 @@ session_start();
 			<iframe class="embeddedYT" src="https://www.youtube.com/embed/UQvd0G_qcuE?rel=0" allowfullscreen></iframe>
 		</div> 
 		<div class="YTbio">
-			<H2>The Forgotten Software Incidents</H2>
-			<p class="YTbio_description">The joint youtube gaming channel</p>					
-			<iframe class="embeddedYT" src="https://www.youtube.com/embed/uLjOi8S4XJA?rel=0" allowfullscreen></iframe>
+			<H2>The Distracting Podcast</H2>
+			<p class="YTbio_description">The joint weekly podcast featuring Justin, Sarah, Robin and Will.</p>					
+			<iframe class="embeddedYT" src="https://www.youtube.com/embed/aLHcyfZyT9A?rel=0" allowfullscreen></iframe>
 		</div>
 		<div class="YTbio">
 			<H2>CoolMovesBMX</H2>

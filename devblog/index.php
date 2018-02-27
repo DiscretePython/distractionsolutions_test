@@ -11,7 +11,19 @@ session_start();
 	<div class="header_title"> Our Solutions To All Of Our Many Selfmade Problems</div> 
 	<div class="body">
 	<H1 class="YTtitle">Thoughts during Development</H1>  <!-- CSS Needs Updateing, this is piggybaking on the youtube section title //-->
-		<div class="blog_post">
+	
+	<div class="blog_post">
+		<article>
+			<div class="blog_header_container">
+				<H2>Mega Febuary Update and Podcast</H2>
+				<H6>Febuary 27, 2017 by William Knowling</H6>
+			</div>
+			<p> We managed to smush a bunch of small fixes into this one.  First we updated the css so the site works and looks decent on mobile and high density displays.</p>
+			<p> We have also started a weekly podcast.  It is called the distracting podcast.  As of right now we stream it on wednesday (twitch) and upload it on thursday (youtube).  The podcast is based on a similar idea as this site, just a series of distractions.</p>
+		</article>
+	</div>
+	
+	<div class="blog_post">
 		<article>
 			<div class="blog_header_container">
 				<H2>Using Excel to put a Class Schedule into Google's Calendar</H2>

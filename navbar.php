@@ -21,7 +21,7 @@ echo ("<div class=\"navbar\">
 		        <div class=\"column\">
 		          <h3>YouTube Channels</h3>
 		          <a href=\"https://www.youtube.com/channel/UCrY8HCw-tFuigIKYmEfq37g\">Will's Vlog</a>
-		          <a href=\"https://www.youtube.com/channel/UCs3p8C3kb8MVE2VKA1aRADg\">The Forgotten Software Incidents</a>
+		          <a href=\"https://www.youtube.com/channel/UCVpv24wGNZZqCsGpLtLPG4A\">The Distracting Podcast</a>
 		          <a href=\"https://www.youtube.com/user/CoolMovesBMX\">CoolMovesBMX</a>
 		        </div>
 		        <div class=\"column\">
