@@ -7,7 +7,7 @@ session_start();
 <body class="back">
 	<?php include 'navbar.php';?>
 	<div id="top"></div>
-	<div class="i-1"></div>
+	<div class="i-9"></div>
 	<div class="header_title"> Your Solutions To All Of The Worlds Problems</div> 
 	<div id="youtube" class="YTcluster">
 		<H1 class="YTtitle">How to cook</H1>
@@ -68,7 +68,7 @@ session_start();
 				<a class="list-item" href="https://github.com/thedaviddias/Front-End-Checklist">Front End Checklist</a><br>	
 				<a class="list-item" href="https://www.reddit.com/r/learnprogramming/comments/7ftygt/github_offers_a_very_large_student_developer/">Free/Cheap tools for Students</a><br>
 				<a class="list-item" href="https://flippa.com/">Ebay for websites</a><br>
-				
+				<a class="list-item" href="https://uxdesign.cc/good-to-great-ui-animation-tips-7850805c12e5">From Good To Great Annimations</a><br>
 		
 		</div>
 		<div class="flex-item">Comdic Relief
@@ -94,7 +94,18 @@ session_start();
 		<div class="flex-item">Schematics
 			<br>
 				<a class="list-item" href="https://www.fs.fed.us/database/acad/lt/">US Fire Watch Towers</a>
-			
+		</div>
+		<div class="flex-item">Favorite and Forget
+			<br>
+				<a class="list-item" href="https://imgur.com/gallery/ixce0">Helpful Google Data</a><br>
+				<a class="list-item" href="https://imgur.com/gallery/njsSW">GIFs of Enginnerring porn</a><br>
+				<a class="list-item" href="https://winworldpc.com/product/microsoft-visual-bas/60">Microsoft Visual Basic 6.0 Download</a><br>
+				<a class="list-item" href="https://www.caffeineinformer.com/death-by-caffeine">How much Caffeine is to much?</a><br>
+				<a class="list-item" href="https://geoguessr.com/world/play">Guess where you are.</a><br>
+				<a class="list-item" href="https://www.movieswhere.com/topic/detail?topicId=1">Does the dog die (movies) (dead-link)?</a><br>
+				<a class="list-item" href="http://you.regettingold.com">How old are you?</a><br>
+				<a class="list-item" href="http://www.howmanypeopleareinspacerightnow.com/">How many people are in space?</a><br>
+				<a class="list-item" href="https://wildlife.faa.gov/database.aspx">FAA data on planes running into animals.</a><br>
 		</div> 
 	</div>
 	 

@@ -10,7 +10,7 @@
 	color: White;
 	margin:0;
 	font-size: 16px;
-    overflow-wrap: break-word;
+    overflow-wrap: normal;
 
 	
 }
@@ -142,6 +142,10 @@
 .i-8{
 	background-image: url(./../images/i8.JPG);
 }
+.i-9{
+	background-image: url(./../images/IMG_20180102_172201.jpg);
+}
+
 /* The photo descriptions*/
 .i1_des ,.i2_des ,.i3_des ,.i4_des ,.i5_des ,.i6_des ,.i7_des,.i8_des{
 	
@@ -374,20 +378,23 @@
 /* Higher Reselotion Displays */
 
 @media (min-resolution: 144dpi){
-
-	.header_title ,.body ,.bio ,.YTbio ,.YTtitle,.navbar a ,.news{
-		font-size: 200%;
-	}
-	.dropdown .dropbtn {
-	 	 font-size: 32px; 
-	 }
- 	.back {
-    	background: linear-gradient(to bottom, rgb(200, 50, 175) 7%, rgb(10, 200, 200) 100%);
-	 }
-	 .blog_post{
+	
+	@media (max-width: 1000px){
+		.header_
+		.title ,.body ,.bio ,.YTbio ,.YTtitle,.navbar a ,.news{
+			font-size: 200%;
+		}
+		.dropdown .dropbtn {
+	 	 	font-size: 32px; 
+	 	}
+ 		.back {
+    		background: linear-gradient(to bottom, rgb(200, 50, 175) 7%, rgb(10, 200, 200) 100%);
+	 	}
+	}	
+	.blog_post{
 	 	max-width:96%;
 		padding:15px;
-	 }
+	}
 	 
 
 }

@@ -2,7 +2,23 @@
 echo ("<div class=\"navbar\">
   		<a href=\"..\index.php#home\">Home</a>
   		<a href=\"..\index.php#news\">News</a>
-	  	<a href=\"..\index.php#contributors\">Contact</a>
+		<div class=\"dropdown\">
+			<button class=\"dropbtn\">About
+				<i class=\"fa fa-caret-down\"></i>
+    		</button>
+			<div class=\"dropdown-content\">
+      		<div class=\"drop_menu_header\">
+       			<h2>Who are we?</h2>
+      		</div> 
+			<div class=\"row\">
+		        <div class=\"column\">
+		          <h3>People</h3>
+		          <a href=\"..\People\William.php#top\">William</a>
+		          <a href=\"..\People\Justin.php#top\">Justin</a>
+		        </div>
+		     </div>
+			 </div>
+		 </div>
 		<div class=\"dropdown\">
 			<button class=\"dropbtn\">Resources
 				<i class=\"fa fa-caret-down\"></i>
